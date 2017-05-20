@@ -3,7 +3,7 @@
 ## Description
 Single molecule localization microscopy algorithm based on the minimization of the CEL0 relaxation of the L0 penalized least-squares criterion. The minimization is performed with an iteratively reweighted L1 method.
 
-![alt text](https://github.com/esoubies/SMLM-CEL0/blob/master/imgs/recons1.png)![alt text](https://github.com/esoubies/SMLM-CEL0/blob/master/imgs/recons2.png)
+............![alt text](https://github.com/esoubies/SMLM-CEL0/blob/master/imgs/recons1.png)        ![alt text](https://github.com/esoubies/SMLM-CEL0/blob/master/imgs/recons2.png)
 
 ## Repository content
 * main function **SMLMCEL0.m** 
