@@ -2,7 +2,11 @@
 
 ## Description
 Single molecule localization microscopy code based on a deconvolution algorithm with a L0 regularization term to promote sparsity.
-The L0 penalized least-squares criterion is continuously relaxed with the continuous exact l0 (CEL0) functional, allowing thus its minimization using an iteratively reweighted L1 method.
+The L0 penalized least-squares criterion is continuously relaxed with the continuous exact l0 (CEL0) functional, allowing thus its minimization using an iteratively reweighted L1 method. More details can be found in the following paper:
+
+[High density molecule localization for super-resolution microscopy using CEL0 based sparse approximation.](https://hal.inria.fr/hal-01443565) Proc. ISBI, 2017. 
+Simon Gazagnes, Emmanuel Soubies and Laure Blanc-Féraud.
+
 
 <p align="center">
 <img src="https://github.com/esoubies/SMLM-CEL0/blob/master/imgs/recons1.png"/>
@@ -22,6 +26,3 @@ The algorithm has been tested on the 2D high density datasets of the [SMLM chall
 * Gaussian PSF with variance: 4.5e-3
 * lambda: 1.1 (for dataset ER2.N3.HD-2D) and 0.21 (for dataset MT4.N2.HD-2D)
 
-## Reference
-[High density molecule localization for super-resolution microscopy using CEL0 based sparse approximation.](https://hal.inria.fr/hal-01443565) Proc. ISBI, 2017. 
-Simon Gazagnes, Emmanuel Soubies and Laure Blanc-Féraud.
