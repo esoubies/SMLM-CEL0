@@ -4,7 +4,7 @@
 Single molecule localization microscopy code based on a deconvolution algorithm with a L0 regularization term to promote sparsity.
 The L0 penalized least-squares criterion is continuously relaxed with the continuous exact l0 (CEL0) functional, allowing thus its minimization using an iteratively reweighted L1 method. More details can be found in the following paper:
 
-[High density molecule localization for super-resolution microscopy using CEL0 based sparse approximation.](https://hal.inria.fr/hal-01443565) Proc. ISBI, 2017. 
+<a href="https://hal.inria.fr/hal-01443565" target="_blank">High density molecule localization for super-resolution microscopy using CEL0 based sparse approximation.</a> Proc. ISBI, 2017. 
 Simon Gazagnes, Emmanuel Soubies and Laure Blanc-Féraud.
 
 
