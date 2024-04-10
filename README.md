@@ -23,6 +23,6 @@ The algorithm has been tested on the 2D high density datasets of the [SMLM chall
 * coefEch: 4  (i.e. each pixel of data images is divided in 4 => pixel size 25nm)
 * itmaxIRL: 200  (max number of iterations for outer loop IRL1)
 * itmaxFista: 200 (max number iterations for inner loop FISTA)
-* Gaussian PSF with variance: 4.5e-3
+* Gaussian PSF with variance: 4.5e-3 (for a normalized image domain [-1 1]^2)
 * lambda: 1.1 (for dataset ER2.N3.HD-2D) and 0.21 (for dataset MT4.N2.HD-2D)
 
