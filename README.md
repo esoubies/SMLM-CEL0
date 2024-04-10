@@ -20,7 +20,7 @@ Simon Gazagnes, Emmanuel Soubies and Laure Blanc-Féraud.
 
 ## SMLM Challenge 2016
 The algorithm has been tested on the 2D high density datasets of the [SMLM challenge 2016](http://bigwww.epfl.ch/smlm/challenge2016/index.html). For these tests, algorithm parameters have been set as follows:
-* coefEch: 4  (i.e. each pixel of data images is divided in 4 => pixel size 25nm)
+* coefEch: 4  (i.e. each pixel of data images is divided in 4)
 * itmaxIRL: 200  (max number of iterations for outer loop IRL1)
 * itmaxFista: 200 (max number iterations for inner loop FISTA)
 * Gaussian PSF with variance: 4.5e-3 (for a normalized image domain [-1 1]^2)
